@@ -1,4 +1,3 @@
-
 //Objects
 /*
 var Obj1={
@@ -93,10 +92,11 @@ game();
 */
 //Lecture:Closures
 
+/*
 function retirement(retirementAge) {
     var a = ' Years left until retirement '
 
-    return function (yearsOfBirth) {
+    return function(yearsOfBirth) {
         var age = 2016 - yearsOfBirth;
         console.log((retirementAge - age) + a);
     }
@@ -107,57 +107,24 @@ retirementIndia(1960)
 
 function interviewQuestion(job) {
 
-    return function (name) {
+    return function(name) {
         if (job === 'designer') {
             console.log(name + ' can you please explain what UX desing is?')
-        }
-        else if (job === 'teacher') {
+        } else if (job === 'teacher') {
             console.log('What subject do you teach ' + name + ' ?')
-        }
-        else {
+        } else {
             console.log('Hello ' + name + ' What do you do?')
         }
     }
 
 }
-interviewQuestion('teacher')('mark')
+interviewQuestion('teacher')('mark');
+*/
 
+//Lecture:Bind , call and apply
 
+var john = {
+    name: 'John',
+    age: 26,
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
